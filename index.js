@@ -3,7 +3,7 @@ const http = require('http');
 const PORT = 3000;
 const TITLE = process.env.TITLE || 'Default Title by farhanaaa';
 const MESSAGE = process.env.MESSAGE || 'Default Message';
-const MESSAGE = process.env.MESSAGE || 'Default Message';
+const MESSAGE = process.env.MESSAGE || 'ayam goreng';
 
 const requestHandler = (req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
