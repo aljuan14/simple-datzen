@@ -1,7 +1,7 @@
 const http = require('http');
 
 const PORT = 3000;
-const TITLE = process.env.TITLE || 'Default Title by farhanaaa qonita';
+const TITLE = process.env.TITLE || 'Default Title by danzi love kayla';
 const MESSAGE = process.env.MESSAGE || 'Default Message farhan love zakia';
 
 
